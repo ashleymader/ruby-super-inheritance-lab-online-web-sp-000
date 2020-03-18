@@ -7,6 +7,6 @@ class ChattyStudent < Student
   
   def raise_hand 
     super
-    puts "Pick me! Pick me! Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n" to stdout, but output "Pick me!\n"
+    puts "Pick me!"
   end
 end
